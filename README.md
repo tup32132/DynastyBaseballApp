@@ -23,6 +23,7 @@ This app supports:
 ---
 
 ## 🗂 Project Structure
+```text
 dynasty-baseball-app/
 │
 ├── apps/
@@ -32,8 +33,7 @@ dynasty-baseball-app/
 ├── backend/ # Server logic (Supabase scripts, API)
 ├── infra/discord-bot/ # Discord bot + slash commands
 └── README.md
-
----
+```
 
 ## 🧑‍💻 Local Setup
 
@@ -77,7 +77,7 @@ We’re aiming to launch for the 2026 baseball season:
 
 🚀 February 2026: Launch to real leagues!
 
-🤝 Contributors
+## 🤝 Contributors
 Poopsock – Project lead, backend/devops/full-stack
 
 Clovena – Frontend/UI dev
