@@ -20,6 +20,15 @@ This app supports:
 | Discord     | Discord OAuth2, Slash Commands, Bot API |
 | Deployment  | Vercel (web), Expo EAS (mobile)     |
 
+## Core Tables
+| Table       | Fields |
+|-------------|------------------------------------------------------------------------------------------|
+| Users       | id, discord_id, username, email                                                          |
+| Leagues     | id, name, commissioner_id, discord_channel_id                                            |
+| Teams       | id, user_id, league_id, name, logo_url, is_commissioner                                  |
+| Players     | id, mlb_id, name, position, mlb_team                                                     | 
+| Rosters     | id, team_id, player_id, slot                                                             | 
+| Drafts      | id, league_id, round, pick_number, team_id, player_id, created_at                        |
 ---
 
 ## 🗂 Project Structure

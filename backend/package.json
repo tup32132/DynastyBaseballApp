@@ -1,0 +1,26 @@
+{
+  "name": "dynastybaseballapp",
+  "version": "1.0.0",
+  "description": "A full-stack fantasy baseball platform for dynasty leagues, built to be modern, mobile-friendly, and actually enjoyable to use.",
+  "main": "index.js",
+  "scripts": {
+    "seed-players": "ts-node scripts/seed-players.ts",
+    "seed-teams": "ts-node scripts/seed-teams.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tup32132/DynastyBaseballApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tup32132/DynastyBaseballApp/issues"
+  },
+  "homepage": "https://github.com/tup32132/DynastyBaseballApp#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "node-fetch": "^3.3.2"
+  }
+}
